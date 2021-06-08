@@ -1,0 +1,41 @@
+// $line-height-base: 1 !default;
+$input-btn-padding-y: 0.175rem !default;
+$input-btn-padding-x: 0.55rem !default;
+@import "~bootstrap/scss/bootstrap";
+
+.j-editor {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-style: solid;
+  border-width: $border-width;
+  border-color: $border-color;
+  // border-radius: $border-radius;
+  .editable-area {
+    margin-top: 0.25rem;
+  }
+}
+
+.j-toolbar {
+  .j-toolbar-item {
+    margin-right: 0.15rem;
+    vertical-align: middle;
+  }
+  .j-toolbar-item.active {
+    border: 1px solid #aaa;
+  }
+}
+
+.edit-combo {
+  width: 180px;
+  display: inline-block;
+
+  .list-group {
+    position: absolute;
+    width: 180px;
+  }
+}
+
+.color-picker {
+  padding: 10px;
+  border: 1px solid #aaa;
+}
